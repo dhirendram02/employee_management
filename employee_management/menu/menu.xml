@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <!-- ============= Main Menu ========== -->
+        <menuitem id="menu_employee_root" name="Employee Management"/>
+        <!-- ============= Sales Employee Info Menu ========== -->
+        <menuitem id="menu_employee_info" name=" Employee Info" action="action_emp_info" parent="menu_employee_root"
+                  sequence="1"/>
+    </data>
+</odoo>
